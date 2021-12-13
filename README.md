@@ -4,7 +4,7 @@ The process of creating the navbar library will be reflected using different bra
 
 ## basic_v1
 
-This branch contains an workspace and a navbar library created using angular cli.
+This branch contains an workspace and a navbar library created using angular cli. No implementation was done here.
   - ng new workspace --no-create-application
   - cd workspace
   - ng g library my-navbar
