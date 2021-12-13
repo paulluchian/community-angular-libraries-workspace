@@ -9,7 +9,26 @@ This branch contains an workspace and a navbar library created using angular cli
   - cd workspace
   - ng g library my-navbar
 
-##
+## basic_v2
+
+This branch contains the working version of angular navbar library
+  - if you do any changes, you will have to rebuild the library using: npm run build-navbar
+  - a new bundle will be generated under dist\my-navbar
+  - now you will have to pack it using: npm pack dist\my-navbar\
+    - don't forget the '\' - slash at the end of the path
+    - a tgz file will be generated in your current path
+    - this file will be used when installing the application in your project
+  - you can now use it in your application
+    - it can be installed using: npm install [workspace_path]/softvisionartifacts-navbar-0.0.1.tgz
+
+
+
+
+
+
+
+
+
 
 # Workspace
 
