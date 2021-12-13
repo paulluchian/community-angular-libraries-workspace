@@ -1,9 +1,11 @@
 {
-  "name": "my-navbar",
+  "name": "@softvisionartifacts/navbar",
   "version": "0.0.1",
   "peerDependencies": {
-    "@angular/common": "^11.2.14",
-    "@angular/core": "^11.2.14"
+    "@angular/common": "~11.2.7",
+    "@angular/core": "~11.2.7",
+    "@angular/router": "~11.2.7",
+    "rxjs": "~6.6.0"
   },
   "dependencies": {
     "tslib": "^2.0.0"
